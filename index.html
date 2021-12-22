@@ -1,0 +1,38 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Task</title>
+</head>
+<body>
+
+<div class="calculator">
+    <h2 class="title"> Формула расчета процентов по кредиту </h2>
+    <h3 class="task"> <b> П = С*ПС/100*КД/ДГ, </b> где: <br> <b>П</b> - сумма начисленных процентов; <br> <b>С</b> - сумма кредита;
+        <br> <b>ПС</b> - процентная ставка по кредиту (% годовых); <br> <b>КД</b> -  количество дней кредитования <br> <b>ДГ</b> - количество дней в году.</h3>
+    <div class="task-content">
+        <h3> С:</h3><input id="c" value="" autocomplete="off">
+        <h3> ПС:</h3><input id="pc" value="" autocomplete="off">
+        <h3> КД:</h3><input id="kd" value="" autocomplete="off">
+        <h3> ДГ:</h3><input id="dg" value="" autocomplete="off">
+    </div>
+    <div class="task-text">
+        <h3> Переплата составит:</h3> <p id="res"></p></div>
+    <div class="button">
+        <button id="btn"> click </button>
+    </div>
+
+    <br>
+    <br>
+    <h4>
+    Пример <br>
+        Сергей решил купить электроскутер стоимостью 80 000 гривен в кредит на 2 года. <br> Банк выдал деньги под 24% годовых с аннуитетной формой погашения (равными частями).
+        <br> В этом случае переплата составит:
+        П = 80 000 *24/100*730/365 = 38400
+    </h4>
+</div>
+
+<script src="js/js.js"></script>
+
+</body>
+</html>
